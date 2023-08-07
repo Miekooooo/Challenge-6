@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="Assets/style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>Weather Dashboard</h1>
+
+    <!-- City Search Form -->
+    <form id="citySearchForm">
+      <label for="cityInput">Enter City:</label>
+      <input type="text" id="cityInput" required>
+      <button type="submit">Search</button>
+    </form>
+
+    <!-- Current Weather Conditions -->
+    <div id="currentWeather">
+      <h2>Current Weather</h2>
+      <div id="cityName"></div>
+      <div id="date"></div>
+      <div id="weatherIcon"></div>
+      <div id="temperature"></div>
+      <div id="humidity"></div>
+      <div id="windSpeed"></div>
+    </div>
+
+    <!-- Future Weather Forecast -->
+    <div id="futureWeather">
+      <h2>5-Day Forecast</h2>
+      <div class="forecastDay">
+        <div class="forecastDate"></div>
+        <div class="forecastIcon"></div>
+        <div class="forecastTemperature"></div>
+        <div class="forecastHumidity"></div>
+        <div class="forecastWindSpeed"></div>
+      </div>
+      <!-- Repeat the forecastDay container for each day in the forecast -->
+    </div>
+
+    <!-- Search History -->
+    <div id="searchHistory">
+      <h2>Search History</h2>
+      <ul>
+        <!-- The search history will be dynamically populated with city names -->
+        <!-- Each list item will be clickable to show weather for that city again -->
+      </ul>
+    </div>
+  </div>
+
+  <!-- Include your JavaScript file here -->
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  input[type="text"] {
+    flex: 3;
+    padding: 5px;
+  }
+  
+  button {
+    flex: 1;
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #currentWeather, #futureWeather {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  #cityName {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  #weatherIcon {
+    font-size: 50px;
+  }
+  
+  .forecastDay {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+  }
+  
+  ul li:hover {
+    background-color: #f0f0f0;
+  }
