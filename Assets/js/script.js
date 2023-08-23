@@ -42,7 +42,12 @@ document.addEventListener('DOMContentLoaded', () => {
       cityName.textContent = data.name;
       date.textContent = new Date(data.dt * 1000).toLocaleDateString();
       weatherIcon.innerHTML = `<img src="http://openweathermap.org/img/w/${data.weather[0].icon}.png" alt="Weather Icon">`;
-      temperature.textContent = `Temperature: ${data.main.temp}°C`;
+      
+      // Convert the temperature from Celsius to Fahrenheit
+      const temperatureInCelsius = data.main.temp;
+      const temperatureInFahrenheit = (temperatureInCelsius * 9/5) + 32;
+
+      temperature.textContent = `Temperature: ${temperatureInFahrenheit.toFixed(2)}°F`;
       humidity.textContent = `Humidity: ${data.main.humidity}%`;
       windSpeed.textContent = `Wind Speed: ${data.wind.speed} m/s`;
     }
@@ -121,8 +126,3 @@ citySearchForm.addEventListener('submit', async (e) => {
   citySearchForm.reset();
   });
 });
-
-
-
-
-
