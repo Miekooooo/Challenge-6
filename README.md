@@ -10,42 +10,31 @@
 3. Enter another city for the previous to be saved in your history
 
 ## Description
-- A weather forecast application that is simple in design but proves itself in functionality.
+- A weather forecast application that is simple in design but still displays all the info you would want out of a weather application.
 
 
-- "what was my motivation?" 
-- "why did I build this project?" 
-- "what problem does it solve?" 
-- "what did I learn?" 
+- "what was my motivation?" To better understand APIs and how to call certain info.
+- "why did I build this project?" To create a simple application using APIs.
+- "what problem does it solve?" If you didn't have a weather app or any way of getting weather this would be a good alternative.
+- "what did I learn?" I have a better understanding about APIs.
 
 ## Features
 
-- 
-- 
-- 
+- Search history
+- Weather data
+- Future weather data
 
 ## Screenshots
 
-- 
-- 
-- 
-
-## Installation
-
-- 
+- ![Alt text](Example.PNG)
+- ![Alt text](<Form Submission.PNG>)
+- ![Alt text](<Function setup.PNG>)
 
 ## Usage
 
-- 
+- A simple and fast way to get weather forecast and current weather data.
 
 ## Credits
-
-- 
-- 
-- 
-- 
-- 
-- 
 
 ## License 
 
