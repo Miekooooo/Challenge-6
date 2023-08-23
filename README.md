@@ -2,7 +2,7 @@
 
 ## Website link
 
-- 
+- https://miekooooo.github.io/Challenge-6/
 
 ## Instructions
 1. Enter a city
