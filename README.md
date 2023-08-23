@@ -5,12 +5,12 @@
 - 
 
 ## Instructions
-1. 
-2. 
-3. 
+1. Enter a city
+2. Then the current and weather forecast will be displayed
+3. Enter another city for the previous to be saved in your history
 
 ## Description
-- 
+- A weather forecast application that is simple in design but proves itself in functionality.
 
 
 - "what was my motivation?" 

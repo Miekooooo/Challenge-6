@@ -13,8 +13,10 @@ body {
   
   h1 {
     text-align: center;
+    background-color: #007BFF;
+    color: #ffffff
   }
-  
+
   form {
     display: flex;
     margin-bottom: 20px;
